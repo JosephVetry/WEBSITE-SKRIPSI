@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="home.html"><img class="logokalbis" src="photo/logo.png" alt="Kalbis Institute" title="Kalbis Institute"></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="home.html" class="navbar"><strong>HOME</strong></a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="information.html">INFORMATION</a></li>
+                <li><a href="mahasiswa.html">MAHASISWA</a></li>
+                <li><a href="tautan.html">TAUTAN</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+
+    <main>
+        <center>
+            <div class="iframe-container">
+                <iframe width="900px" height="700px" src="https://www.youtube.com/embed/fuTzb0jtrxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+        </center>
+        <h1 id="berita" class="judul">Berita</h1>
+        <section class="container">
+            <div class="card">
+                <img src="photo/lombakalbis.jpeg" alt="Tiga Mahasiswa Kalbis Institute"  class="card-image">
+                <h2>3 Mahasiswa Kalbis Institute Raih Medali Emas di Ajang WYIE 2022</h2>
+                <p>Mewakili Himpunan Mahasiswa Manajemen (Himan) Fakultas Bisnis dan Komunikasi Kalbis Institute, Saviour Carsten (Manajemen 2021), Vincent Louis Gunawan (Manajemen 2019), Michael Supriady Hutapea (Manajemen 2019) berhasil meraih medali emas dan WIIPA Special Award.</p>
+                <a href="#">READ MORE</a>
+            </div>
+            <div class="card">
+                <img src="photo/seminarkalbis.jpeg" alt="Seminar Kalbis" class="card-image">
+                <h2>Kalbis Institute dan The Chicago School Gelar Webinar "Business Psychology"</h2>
+                <p>Kalbis Institute bersama The Chicago School of Professional Psychology dari Amerika Serikat menggelar webinar Business Psychology pada Jumat, 20 Mei 2022, mengangkat tema “A New Horizon for Your Future Career?”</p>
+                <a href="#">READ MORE</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="photo/logo.png" alt="Kalbis Institute" title="Kalbis Institute">
+            <ul>
+                <li><a target="_blank" href="http://goo.gl/maps/2cNWcPPvT3wA8zZQ9">Jl. Pulomas Selatan kav.22</a></li>
+                <li><a target="_blank" href="http://goo.gl/maps/2cNWcPPvT3wA8zZQ9">Jakarta Timur 13210</a></li>
+                <li><a href="tel:+622147883900">Telp. (021) 4788-3900</a></li>
+                <li><a href="fax:+622147883651">Fax. (021) 4788-3651</a></li>
+                <li><a href="mailto:student.service@kalbis.ac.id">student.service@kalbis.ac.id</a></li>
+            </ul>
+            <div class="social">
+                <a href="https://www.facebook.com/kalbisinstitute"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/kalbisinstitute"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.youtube.com/c/KalbisInstituteOfficial"><i class="fa fa-youtube"></i></a>
+                <a href="https://www.instagram.com/kalbisinstitute/"><i class="fa fa-instagram"></i></a>
+                <a href="https://wa.me/6282124422078"><i class="fa fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <ul class="footer-right">
+            <li>
+                <h2>Profile</h2>
+
+                <ul class="box">
+                    <li><a href="profile.html">Our Team</a></li>
+                    <li><a href="home.html#berita">Berita</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Tautan</h2>
+
+                <ul>
+                    <li><a href="tautan.html">Kalender Akademik</a></li>
+                    <li><a href="tautan.html">Formulir</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="footer-bottom">
+            <p>©Created by <a href="https://www.instagram.com/josefvetr/">Joseph Vetry</a></p>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            $(".menu-toggle").click(function() {
+                $('nav').toggleClass('active');
+            })
+        })
+
+        alert('Selamat Datang!');
+    </script>
+</body>
+
+</html>
